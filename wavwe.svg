@@ -1,3 +1,7 @@
 <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,100 L100,100 L110,90 L120,110 L130,100 L800,100" fill="none" stroke="white" stroke-width="50"/>
+    <defs>
+        <clipPath id="wave-clip">
+            <path id="wave-path" d="M0,100 L100,100 L110,90 L120,110 L130,100 L800,100"></path>
+        </clipPath>
+    </defs>
 </svg>
